@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/supox/workspace/check_in/config/deploy'
+let g:netrw_dirhist_2='/home/supox/workspace/check_in'
+let g:netrw_dirhist_3='/home/supox/workspace/RapCrawler'
