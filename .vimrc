@@ -17,8 +17,15 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
+"" Autocomplete
+let g:rubycomplete_buffer_loading = 1
+let g:rubycomplete_rails = 1
+ 
 "" Auto write
 set autowrite
+
+"" Map Te to edit in new tab
+command! -complete=file -nargs=1 Te tabedit <args>
 
 " Pathogen
 execute pathogen#infect()
