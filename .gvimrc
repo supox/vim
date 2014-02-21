@@ -1,4 +1,4 @@
-nmap <S-C-V> "+gp
-imap <S-C-V> <ESC><C-V>i 
+nmap <S-C-V> "+p
+imap <S-C-V> <C-r><C-p>+ 
 vmap <S-C-C> "+y
 
